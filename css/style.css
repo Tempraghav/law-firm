@@ -9963,3 +9963,38 @@ textarea.form-control {
         font-size: 20px; /* Smaller icon */
       }
     }
+
+/* Previous styles */
+
+@media (max-width: 991.98px) {
+  .img-3 {
+      height: auto; /* Remove fixed height */
+    }
+  
+/* Previous styles */.ftco-section.row.no-gutters {
+  display: flex;
+  align-items: stretch; /* Stretch image and content to fill height */
+}.ftco-section.img-3 {
+  width: 50%; /* Adjust width as needed */
+}.ftco-section.wrap-about {
+  width: 50%; /* Adjust width as needed */
+}
+}
+
+
+/* Previous styles */
+
+@media (min-width: 992px) { /* Target laptop-sized screens and above */
+  .ftco-section.row.no-gutters {
+      justify-content: center; /* Horizontally center the content */
+    }
+  
+  .ftco-section.img-3 {
+      width: 40%; /* Adjust width as needed */
+      margin: 0 auto; /* Center the image */
+    }
+  
+  .ftco-section.wrap-about {
+      width: 60%; /* Adjust width as needed */
+    }
+  }
